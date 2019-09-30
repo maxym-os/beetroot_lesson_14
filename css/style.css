@@ -1,0 +1,19 @@
+:focus {
+    background-color: green;
+}
+
+:valid {
+    background-color: aquamarine;
+}
+
+:invalid {
+
+}
+
+:disabled {
+    background-color: grey;
+}
+
+:checked {
+
+}

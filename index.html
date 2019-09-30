@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="http://google.com" method="GET" autocomplete="off" novalidate target="_blank">
+        <label for="name">Name: </label><input type="text" name="name" id="name"><br>
+        <input type="hidden" name="some_value" value="some_value">
+        <input type="checkbox" checked>
+        <input type="radio" checked>
+        <textarea cols="100" rows="10" disabled></textarea>
+        <select required>
+            <option>item 1</option>
+            <option selected>item 2</option>
+            <option>item 3</option>
+        </select>
+        <button onclick="document.location.href='http:\/\/google.com'">Press me</button>
+
+        <input type="number">
+        <input type="number">
+
+        <fieldset>
+            <legend>Title</legend>
+            <textarea cols="100" rows="10" disabled></textarea>
+            <select required>
+                <option>item 1</option>
+                <option selected>item 2</option>
+                <option>item 3</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>
